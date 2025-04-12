@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center;">
+ <!--Navigation Bar-->  
+ <header>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add-recipe.html">Add Recipe</a></li>
+            <li><a href="recipe-list.html">Recipe List</a></li>
+    
+    </nav>
+
+ </header>
+
+ <!--Add Recipe Form-->
+ <section class="from-section">
+    <h1>Add a new Recipe</h1>
+    <form action="#" method="post">
+
+        <!--Recipe Name-->
+        <label for="name">Recipe name</label>
+        <input type="text" id="name " name="name" required/><br/><br/>
+
+        <!--Ingredients-->
+        <label for="Ingredients">Ingredients</label>Ingredients:<br/>
+        <textarea name="Ingredients" id="Ingredients"  rows="5" required></textarea><br/><br/>
+
+        <!--Cooking Instractions-->
+        <label for="Instractions">cooking Instractions:</label><br/>
+        <textarea name="Instractions" id="Instractions"  rows="5" required></textarea>
+<br/><br/>
+
+        <!--Image URL-->
+        <label for="Image">Image URL:</label><br/>
+        <input type="url" id="image" name="image" placeholder="paste image URL here" required> <br/><br/>
+
+        <!--Recipe category-->
+        <label for="category">category:</label><br/>
+        <select name="category" id="category" required>
+        <option value="">select category</option>
+        <option value="Desserts">Desserts</option>
+        <option value="Appetizers">Appetizers</option>
+        <option value="Vegan">Vegan</option>
+        <option value="Quick Meals"></option>
+        </select><br/><br/>
+
+        <!--Submit Bottom-->
+        <input type="submit" value="Add Recipe"/>
+
+    </form>
+
+
+
+ </section>
+ <footer>
+    <p>@2025 Hayedeh Faizi's Resipe Book</p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="add-recipe.html">Add recipe</a></li>
+                <li ><a href="recipe-list.html">Recipe List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="gallery">
+        <h1>Our resipes</h1>
+
+        <!--Category Filter (optional Feature)-->
+
+        <label for="Filter">Filter by category</label>
+        <select name="Filter" id="filter">
+            <option value="all">All</option>
+            <option value="Quick Meals">Quick Meals</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Desserts">Desserts</option>
+        </select>
+
+        <div class="recipe-list">
+            <!--Pizza-->
+            <div class="recipe-card">
+                <h2>Pizza</h2>
+                <img src="pizza.jpg" alt="pizza">
+                <p>delicious hommade pizza with crispy crust and rich peperony.</p>
+                <a href="resipe-details.html#pizza">View Recipe</a>
+            </div>
+
+              <!--Lazania-->
+            <div class="recipe-card">
+                <h2>Lazania</h2>
+                <img src="lazania.jpg" alt="Lazania">
+                <P>Layered pasta with cheese, meat, and olive slices.</P>
+                <a href="resipe-details.html#lazania">View recipe</a>
+            </div>
+
+            <!--Burgur-->
+            <div class="recipe-card">
+                <h2>Burgur</h2>
+                <img src="burgur.jpg" alt="Burgur">
+                <p>Juicy grilled burgure with fresh toppings on a toasted bun</p>
+                <a href="resipe-details.html#burgur">View recipe</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>@2025 Hayedeh Faizi's Recipe Book</p>
+    </footer>
+</body>
+</html>
